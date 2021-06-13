@@ -188,7 +188,7 @@ export default function Home() {
         :root {
           --color-text: black;
           --color-background: white;
-          --color-primary: rebeccapurple;
+          --color-primary: #475168;
         }
 
         html,

@@ -6,6 +6,6 @@ import styled from 'styled-components';
 // }
 
 export const TextLink = styled.a`
-  color: var(--color-primary);
+  color: var(--color-text);
   font-weight: var(--font-weight-medium);
 `;

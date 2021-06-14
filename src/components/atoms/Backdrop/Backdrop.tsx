@@ -28,6 +28,7 @@ export const Backdrop: FC<BackdropProps> = ({ children, opacity, color }) => {
 };
 
 const Wrapper = styled.div`
+  background-color: var(--color-primary);
   color: var(--color);
   opacity: var(--opacity);
 `;

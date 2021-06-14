@@ -1,16 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
-// import styled from "styled-components";
-// import { ReactComponent as ReactLogo } from './logo.svg';
-// import { media } from "../../../styles/media";
-
-// const LogoWrapper = styled.div`
-//   width: 150px;
-//   ${media.from_tablet`
-//     width: 200px;
-//   `}
-// `;
+import styled from 'styled-components';
 
 const pathVariants = {
   initial: {
@@ -24,6 +14,11 @@ const pathVariants = {
     },
   },
 };
+
+const MotionPath = styled(motion.path)`
+  stroke: var(--color-primary);
+  stroke-width: 0.3px;
+`;
 
 export const Logo: React.FC = () => {
   return (
@@ -39,10 +34,9 @@ export const Logo: React.FC = () => {
         initial="initial"
         animate="final"
       >
-        <motion.path
+        <MotionPath
           variants={pathVariants}
           fill="none"
-          stroke="#000"
           d="M30.429,69.643l1.187,0.559
 			c0.074-0.04,0.099-0.133,0.059-0.201l-0.705-1.27c0.103-0.187,0.485-0.725,1.412-0.356c0.059,0.024,0.128,0.008,0.169-0.042
 			c0.042-0.048,0.045-0.117,0.014-0.172c-0.026-0.043-0.625-0.997-1.801-1.076c0.007-0.061,0.013-0.125,0.018-0.188

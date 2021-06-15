@@ -5,6 +5,9 @@ export const GlobalStyle = createGlobalStyle`
     --color-text: black;
     --color-background: white;
     --color-primary: #006064;
+    --color-contrast: #b8a242;
+    --font-weight-light: 100;
+    --font-weight-medium: 500;
   }
 
   body {

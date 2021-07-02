@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { CSSProperties } from 'react';
 
-const hiddenStyles = {
+const hiddenStyles: CSSProperties = {
   display: 'inline-block',
   position: 'absolute',
   overflow: 'hidden',

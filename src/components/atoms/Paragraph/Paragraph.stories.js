@@ -3,6 +3,13 @@ import { Paragraph } from './Paragraph';
 export default {
   title: 'Components/Atoms/Paragraph',
   component: Paragraph,
+  decorators: [
+    (Story) => (
+      <div style={{ border: '1px solid red' }}>
+        <Story />
+      </div>
+    ),
+  ],
 };
 
 const Template = (args) => (

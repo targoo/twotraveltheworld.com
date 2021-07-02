@@ -12,7 +12,8 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC:300,400,700" media="all" />
       </Head>
       <GlobalStyle />
       <ThemeProvider theme={theme}>

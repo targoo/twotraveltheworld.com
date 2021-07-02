@@ -3,6 +3,7 @@ import { Button } from '../components/atoms/Button/Button';
 import { Paragraph } from '../components/atoms/Paragraph/Paragraph';
 import { TextLink } from '../components/atoms/TextLink/TextLink';
 import { TopNavigation } from '../components/molecules/TopNavigation/TopNavigation';
+import { WhoAreWe } from '../components/molecules/WhoAreWe/WhoAreWe';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <br />
         <br />
         <Button>Button</Button>
+        <WhoAreWe />
         <br />
         <br />
         <Paragraph>

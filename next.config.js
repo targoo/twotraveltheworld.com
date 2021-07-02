@@ -3,6 +3,9 @@ module.exports = {
     locales: ['en-UK', 'fr'],
     defaultLocale: 'en-UK',
     localeDetection: true,
+    // images: {
+    //   domains: ['assets.vercel.com'],
+    // },
     // domains: [
     //   {
     //     domain: 'example.com',
